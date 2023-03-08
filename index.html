@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech-Orbit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="img/FAVICON 1.jpeg" type="image/icon type">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="CSS/NavbarStyle.css">
+  
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+        <div id="logo1">
+          <img src="img/1 LOGO .jpeg" alt="LOGO">
+        </div>
+        <div class="logo"><a href="#">Tech Orbit</a></div>
+        <ul class="links">
+          <li><a href="#" onclick="work()">Home</a></li>
+           
+          <li><a href="ABOUT US.html" target="_blank">About</a></li>
+          <li>
+            <a href="#" class="desktop-link">Batches</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Features</label>
+            <ul>
+              <li><a href="#">Batch 1</a></li>
+              <li><a href="#">Batch 2</a></li>
+              <li><a href="#">Batch3</a></li>
+              <li><a href="#">Batch4</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Our Tech Channel</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Services</label>
+            <ul>
+              <li><a href="https://youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR" target="_blank">C
+                  Playlist</a></li>
+              <li><a href="https://youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi" target="_blank">DSA
+                  Playlist</a></li>
+              <li><a href="https://youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q" target="_blank">Java
+                  Playlist</a></li>
+              <li>
+                <a href="" class="desktop-link">Framework</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="https://youtube.com/playlist?list=PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O" target="_blank">
+                      Tailwind</a></li>
+                  <li><a href="https://youtube.com/playlist?list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt"
+                      target="_blank">React</a></li>
+                  <li><a href="https://youtu.be/BLl32FvcdVM" target="_blank">Node js</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="FEEDBACK.html" target="_blank">Feedback</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+
+
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center rounded-3xl">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <img class="object-cover object-center rounded" alt="hero" src="img/2 HEROIMAGE .jpeg">
+      </div>
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Welcome to
+
+          <br class="hidden lg:inline-block">Tech-Orbit Academy..!
+        </h1>
+        <p class="mb-8 leading-relaxed">Our Tech-Orbit Academy Are Engaged In Partnering With Our Customers For Creating
+          a Sustainable Solution For Students.</p>
+
+
+        <div class="flex justify-center">
+          <button
+            class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a
+              href="REGISTRATION FORM.html" target="_blank">Join Now</a></button>
+
+
+          <button
+            class="ml-4 inline-flex  text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg border-green-400 border-fuchsia-500"><a
+              href="Log In index.html" target="_blank">LOG IN </a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto bg-green-300">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-justify">We believe it is a Good Mssion Statement for Our Team to
+          Focus on Providing our Students With a Great Experience. We Recognize that as part of a students-centric
+          Academy, the first step to achieving the Academy’s mission is to provide value to our students.
+        </p>
+      </div>
+      <div class="flex flex-wrap -m-2">
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img/T TEJAS.png">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium"><a href="https://www.instagram.com/__tejas_phatangare__/"
+                  target="_blank">Tejas Phatangare</a></h2>
+              <p class="text-gray-500">Founder</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img/T AKASH.jpeg">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium"><a href="#">Akash Bavche</a></h2>
+              <p class="text-gray-500">C0-Founder</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img/T SAIF.jpg">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium"><a href="#">Saif Ali</a></h2>
+              <p class="text-gray-500">CO-Founder</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img/T VAIBHAV.jpg">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium"><a href="#">Vaibhav Pawar</a></h2>
+              <p class="text-gray-500">AI Expert</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="https://randomuser.me/api/portraits/thumb/men/75.jpg">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium"><a href="#">Jayesh Borse</a></h2>
+              <p class="text-gray-500">RedHat</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img/T SAGAR.jpg">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium"><a href="#">sagar Pawar</a></h2>
+              <p class="text-gray-500">Web Developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img/T ADITYA.jpg">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium"><a href="#">Aditya Shimpi</a></h2>
+              <p class="text-gray-500">CSF Expert</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img/T TEJAL.jpg">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium"><a href="https://www.instagram.com/urvashirautela/"
+                  target="_blank">Tejal Patil</a></h2>
+              <p class="text-gray-500">System Engineer</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+              src="img/T POOJA.jpg">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium"><a href="https://www.instagram.com/sunnyleone/"
+                  target="_blank">Pooja Patil</a></h2>
+              <p class="text-gray-500">Product Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="text-gray-400 body-font bg-gray-900">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap w-full mb-20">
+        <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Services</h1>
+          <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+        </div>
+        <p class="lg:w-1/2 w-full leading-relaxed text-gray-400 text-opacity-90">We Are Providing A Best Services like
+          Web Development ,Python , Java , RedHat , C++ , C , Etc & Much More...!</p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="img/L3 C.jpeg" alt="content">
+            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">Programming</h3>
+            <h2 class="text-lg text-white font-medium title-font mb-4 "><a
+                href="https://www.javatpoint.com/c-programming-language-tutorial" target="_blank">C Programming</a></h2>
+            <p class="leading-relaxed text-base text-justify">C is a powerful general-purpose programming language. It can be used to
+              develop software like operating systems, databases, compilers, and so on.</p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="img/L4  C++.jpeg" alt="content">
+            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">Programming</h3>
+            <h2 class="text-lg text-white font-medium title-font mb-4"><a href="https://www.javatpoint.com/cpp-program"
+                target="_blank">C ++ Programming</a></h2>
+            <p class="leading-relaxed text-base text-justify">C++ is a popular programming language.
+              C++ is used to create computer programs,and is one of the most used language in game development.</p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="img/L1 JAVA .png" alt="content">
+            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">Programming</h3>
+            <h2 class="text-lg text-white font-medium title-font mb-4"><a
+                href="https://www.javatpoint.com/java-tutorial" target="_blank">Java Programming</a></h2>
+            <p class="leading-relaxed text-base text-justify">Java is a high-level, class-based, object-oriented programming language
+              that is designed to have as few implementation dependencies as possible..</p>
+          </div>
+        </div>
+        <div class="xl:w-1/4 md:w-1/2 p-4">
+          <div class="bg-gray-800 bg-opacity-40 p-6 rounded-lg">
+            <img class="h-40 rounded w-full object-cover object-center mb-6" src="img/L5 WEBDEV.jpeg" alt="content">
+            <h3 class="tracking-widest text-indigo-400 text-xs font-medium title-font">Development</h3>
+            <h2 class="text-lg text-white font-medium title-font mb-4"><a
+                href="https://intellipaat.com/blog/what-is-web-development/" target="_blank">Web development</a></h2>
+            <p class="leading-relaxed text-base text-justify">Web development is the work involved in developing a website for the
+              Internet. & simple single static page of plain text to complex web applications.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- COURSES AND PRICES CODING START HERE -->
+
+
+  <section class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/C-JS.png"></a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Programming</h3>
+            <h2 class="text-white title-font text-lg font-medium">Javascript</h2>
+            <p class="mt-1">$24.00</p>
+          </div>
+        </div>
+
+
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/C-PHP.png"></a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Programming</h3>
+            <h2 class="text-white title-font text-lg font-medium">PHP</h2>
+            <p class="mt-1">$25.15</p>
+          </div>
+        </div>
+
+
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/L2 PYTHON.jpeg"> </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Programming</h3>
+            <h2 class="text-white title-font text-lg font-medium">Python</h2>
+            <p class="mt-1">$26.00</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/L4  C++.jpeg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Programming</h3>
+            <h2 class="text-white title-font text-lg font-medium">C++</h2>
+            <p class="mt-1">$27.40</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/L1 JAVA .png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Programming</h3>
+            <h2 class="text-white title-font text-lg font-medium">Java</h2>
+            <p class="mt-1">$28.00</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/REACT1.png">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Programming</h3>
+            <h2 class="text-white title-font text-lg font-medium">REACT</h2>
+            <p class="mt-1">$29.15</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/C-FLUTTER.jpg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Programming</h3>
+            <h2 class="text-white title-font text-lg font-medium">Flutter</h2>
+            <p class="mt-1">$30.00</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block relative h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/C-ANDROID.jpeg">
+          </a>
+          <div class="mt-4">
+            <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Programming</h3>
+            <h2 class="text-white title-font text-lg font-medium">Android</h2>
+            <p class="mt-1">$30.40</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="text-gray-600 body-font bg-dark background-color: rgb(124 58 237)">
+    <div class="container px-5 py-24 mx-auto bg-fuchsia-400">
+      <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Our Placed Students</h1>
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial"
+              class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+              src="img/TM-1 .jpg">
+            <p class="leading-relaxed text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo accusamus iusto id
+              minus eaque? Nostrum, ad sed. Repellendus sit atque ducimus molestias iste quibusdam, mollitia magni cum
+              quos, praesentium vitae?</p>
+            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Akshay Phatangare</h2>
+            <p class="text-gray-500">S/w Engineer-Google</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial"
+              class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+              src="img/TM-2 .jpg">
+            <p class="leading-relaxed text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo accusamus iusto id
+              minus eaque? Nostrum, ad sed. Repellendus sit atque ducimus molestias iste quibusdam, mollitia magni cum
+              quos, praesentium vitae?</p>
+            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Viijaylaxmi Sharma</h2>
+            <p class="text-gray-500">UI Develeoper</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 lg:mb-0 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial"
+              class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+              src="img/TM-3.jpg">
+            <p class="leading-relaxed text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo accusamus iusto id
+              minus eaque? Nostrum, ad sed. Repellendus sit atque ducimus molestias iste quibusdam, mollitia magni cum
+              quos, praesentium vitae?</p>
+            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Kritika Singh</h2>
+            <p class="text-gray-500">CTO</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto bg-fuchsia-400">
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial"
+              class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+              src="img/TM-4 .jpg">
+            <p class="leading-relaxed text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo accusamus iusto id
+              minus eaque? Nostrum, ad sed. Repellendus sit atque ducimus molestias iste quibusdam, mollitia magni cum
+              quos, praesentium vitae?</p>
+            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Nisha Patil</h2>
+            <p class="text-gray-500">Google</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial"
+              class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+              src="img/TM-5 .jpg">
+            <p class="leading-relaxed text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo accusamus iusto id
+              minus eaque? Nostrum, ad sed. Repellendus sit atque ducimus molestias iste quibusdam, mollitia magni cum
+              quos, praesentium vitae?</p>
+            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Vijay Singh</h2>
+            <p class="text-gray-500">FrontEnd Developer- SutherLand</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 lg:mb-0 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial"
+              class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+              src="img/TM-6 .jpg">
+            <p class="leading-relaxed  text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo accusamus iusto id
+              minus eaque? Nostrum, ad sed. Repellendus sit atque ducimus molestias iste quibusdam, mollitia magni cum
+              quos, praesentium vitae?</p>
+            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Sai Gunjal</h2>
+            <p class="text-gray-500">Web Developer-Flipkart</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto bg-blue-600">
+      <div class="flex flex-wrap -m-4 text-center">
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">3.7K</h2>
+          <p class="leading-relaxed">Active Students</p>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">150.8K</h2>
+          <p class="leading-relaxed">Subscribes On Youtube</p>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">35</h2>
+          <p class="leading-relaxed">Success Batches</p>
+        </div>
+        <div class="p-4 sm:w-1/4 w-1/2">
+          <h2 class="title-font font-medium sm:text-4xl text-3xl text-gray-900">5</h2>
+          <p class="leading-relaxed">Bootcamps Done</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-gray-600 body-font relative">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">For Your Best Enhanced & Brighter Future.</p>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+              <input type="text" id="name" name="name"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out required">
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+              <textarea id="message" name="message"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <button
+              class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- FOOTER CODING START HERE -->
+
+  <footer class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">WEB DEVELOPMENT</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-400 hover:text-white">HTML</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">HTML 5</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">CSS</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">JAVASCRIPT</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">S/W DEVELOPMENT</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-400 hover:text-white">C</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">C++</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">JAVA</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">PYTHON</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">FRAMEWORKS</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-400 hover:text-white">TAILWIND</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">BOOTSTRAP</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">REACT</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">ANGULAR</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CSF</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-400 hover:text-white">REDHAT</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">KALI LINUX</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">LINUX ADMIN.</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">UBUNTU</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">SPECIALIZATION</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-400 hover:text-white">DOCKER</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">DEV-OPS</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">MACHINE LEARNING</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white" href="https://www.coursera.org/articles/what-is-data-science"
+                target="_blank">DATA SCIENCE</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">FEATURED</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-400 hover:text-white">AWS</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">CCNA</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">MCSA</a>
+            </li>
+            <li>
+              <a class="text-gray-400 hover:text-white">MCSE</a>
+            </li>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="border-t border-gray-800">
+      <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
+        <div class="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
+          <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
+            <label for="footer-field" class="leading-7 text-sm text-gray-400">Search Here</label>
+            <input type="text" id="footer-field" name="footer-field"
+              class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:ring-2 focus:ring-indigo-900 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <button
+            class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded border-fuchsia-600">Search
+            On This Site</button>
+          <p class="text-gray-500 text-sm md:ml-6 md:mt-0 mt-2 text-center sm:text-left">Follow Our Social Handles...!
+
+            <br class="lg:block hidden">
+          </p>
+        </div>
+        <span class="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
+          <a class="text-gray-400" href="https://www.facebook.com/people/Tejas-Phatangare/100047234412799/"
+            target="_blank">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+
+
+          <a class="ml-3 text-gray-400" href="" target="_blank">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+              viewBox="0 0 24 24">
+              <path
+                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+              </path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-400" href="https://www.instagram.com/__tejas_phatangare__/" target="_blank">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-400" href="https://www.linkedin.com/in/tejas-phatangare-339897235/" target="_blank">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none"
+                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+              </path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </div>
+    <div class="bg-gray-800 bg-opacity-75">
+      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+        <p class="text-gray-400 text-sm text-center sm:text-left">©Tejas Phatangare
+          <a href="https://www.instagram.com/__tejas_phatangare__/" class="text-gray-500 ml-1" target="_blank"
+            rel="noopener noreferrer">@Tech-Orbit</a>
+        </p>
+        <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-400 text-sm">HAVE A
+          GOOD DAY..!</span>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function work() {
+      alert("We Are Working On This..!");
+    }
+  </script>
+</body>
+
+</html>
